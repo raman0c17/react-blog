@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*improve comment form style under dark mode*/
+.tribute-container {
+  @apply dark:bg-gray-300 dark:text-gray-900;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
